@@ -1,0 +1,30 @@
+{
+  "name": "tempo-website",
+  "version": "0.0.1",
+  "description": "Sitio web oficial del servidor Tempo Roleplay",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1",
+    "express-session": "^1.17.1"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "tempo",
+    "roleplay",
+    "samp",
+    "servidor"
+  ]
+}
